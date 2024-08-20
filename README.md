@@ -22,7 +22,7 @@ You can add optional keywords:  `year_author_keyword1_keyword2.pdf`.
 You can add an annotation file with year and author name: `year_author.annot`.  
 You can add and ignore folder: _$BASE_PATH/raw/read/ignore_.  
 You can force a DOI to an article in a _$BASE_PATH/raw/read/doi.txt_ with format: `year_author doi`.  
-Pdf files will be stored in a _$BASE_PATH/sorted_ folder with various ordering.
+Pdf files will be stored in a _$BASE_PATH/sorted_ folder with various orderings.
 
 # Run
 Run `bib_management.py` or create your own run file.  
