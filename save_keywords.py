@@ -2,7 +2,7 @@ import os
 import shutil
 from config import read_base_dir, read_save_dir
 
-config_path = './config.yaml'
+config_path = os.path.join(os.path.dirname(__file__), 'config.yaml')
 base_dir = read_base_dir(config_path)
 raw_dir = os.path.join(base_dir, 'raw')
 keywords_dir = os.path.join(base_dir, 'sorted', 'keywords')

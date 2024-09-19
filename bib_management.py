@@ -8,7 +8,7 @@ from config import read_base_dir
 import create_bib
 import sort_articles
 
-config_path = './config.yaml'
+config_path = os.path.join(os.path.dirname(__file__), 'config.yaml')
 base_dir = read_base_dir(config_path)
 path_biblio = os.path.join(base_dir, 'raw', 'read', 'biblio')
 

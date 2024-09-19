@@ -5,7 +5,7 @@ import config
 import datetime
 import glob
 
-config_path = './config.yaml'
+config_path = os.path.join(os.path.dirname(__file__), 'config.yaml')
 base_dir = config.read_base_dir(config_path)
 latex_install = config.read_latex_install(config_path)
 latex_utils_dir = config.read_latex_utils_dir(config_path)
